@@ -1,4 +1,5 @@
-print("hola \n mundo")
-a = 2 * 54
-b = 2 
-print(b / a)
+peso = float(input("tu peso:"))
+if peso <= 45:
+    print("flaca")
+else:
+    print("gorda")
